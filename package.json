@@ -1,0 +1,39 @@
+{
+  "name": "304cem_backend",
+  "version": "1.0.0",
+  "description": "The 304CEM Backend part",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.coventry.ac.uk/baltal/304cem_backend.git"
+  },
+  "author": "Lukas Balta and Vilius Zurauskas",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/cors": "^2.2.3",
+    "bcrypt": "^3.0.6",
+    "email-validator": "^2.0.4",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "fs-extra": "^8.1.0",
+    "koa": "^2.8.2",
+    "koa-body": "^4.1.1",
+    "koa-bodyparser": "^4.2.1",
+    "koa-mount": "^4.0.0",
+    "koa-passport": "^4.1.3",
+    "koa-router": "^7.4.0",
+    "koa-send": "^5.0.0",
+    "nodaemon": "0.0.5",
+    "passport-http": "^0.3.0",
+    "promise-mysql": "^4.1.1"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-runtime": "^7.7.4",
+    "@babel/preset-env": "^7.7.4",
+    "@babel/runtime": "^7.7.4",
+    "nodemon": "^1.19.3"
+  }
+}
